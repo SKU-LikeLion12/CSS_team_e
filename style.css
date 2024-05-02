@@ -1,0 +1,15 @@
+fieldset {
+    
+    flex-direction: column;
+    justify-content:
+    center;
+    
+
+    
+}
+
+#table {
+
+    display: inline-block;
+    text-align: center;
+} 
