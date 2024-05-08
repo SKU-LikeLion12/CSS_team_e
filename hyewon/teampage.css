@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Freesentation-9Black';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-9Black.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+
+body{
+    font-family: 'Freesentation-9Black';
+}
+  
+@media (max-width:720px){
+    .nav{
+        align-items:center;
+    }
+    .nav p{
+        font-size:12px;
+        white-space:pre-line;
+    }
+    .nav li{
+        font-size:12px
+    }
+    .profile{
+        text-align: center;
+        flex-direction: column;
+        margin-top:40px;
+    }
+    .profileContent{
+        flex-direction : column;
+        margin-bottom: 30px;
+    }
+    .profileText{
+        margin-top:20px
+    }
+    .first{
+        margin:10px;
+    }
+    .firstSection p{
+        font-size:16px;
+        /*text-align: start;*/
+        margin-bottom: 20px;
+    }
+}

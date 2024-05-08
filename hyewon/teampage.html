@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>어흥</title>
+    <link rel="stylesheet" href="teampage.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div>
+        <div class="nav flex justify-between shadow-md flxed bg-white w-full">
+            <div>
+                <p class="m-3 font-bold">E팀의 
+                    팀페이지</p>
+            </div>
+            <div>
+                <ul class="flex mr-5">
+                    <li class="m-3"><a href="#team-profile">팀프로필</a></li>
+                    <li class="m-3"><a href="#team-intro">팀소개</a></li>
+                    <li class="m-3"><a href="#team-personal">개인페이지</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header h-64 bg-cover bg-center" style="background-image : url(./img/header_img.jpg)"></div>
+
+        <div id="team-profile" class="profile flex justify-between items-center p-12 mx-8
+                            max-[720px]:p-0">
+            <div class="profileContent flex items-center">
+                <img src="./img/profile_img.jpg" class="h-40 rounded-full"/>
+                <div class="profileText ml-6 
+                            max-[720px]:ml-0">
+                    <p class="text-2xl font-bold">멋쟁이 E팀</p>
+                    <p class="my-2">어흥어흥! <br/> 사자처럼 빠르게 코딩해요!</p>
+                    <span class="bg-pink-300 rounded-xl px-3 text-white">#3I</span>
+                    <span class="bg-yellow-400 rounded-xl px-3 mx-1 text-white">#프론트엔드</span>
+                    <span class="bg-purple-300 rounded-xl px-3 text-white">#기획/디자인</span>
+                </div>
+            </div>
+            <div>
+                <img src="./img/emoticon.png" class="h-24"/>
+            </div>
+        </div>
+
+        <div id="team-intro" class="firstSection flex justify-center text-center">
+            <div class="first grid grid-cols-3 gap-x-4 p-12 rounded-2xl shadow-xl
+                        max-[720px]:p-5 max-[720px]:grid-cols-1">
+                <div>
+                    <img src="./img/sing.jpeg" class="rounded-2xl object-cover h-80 w-72 mb-3
+                                                max-[720px]:w-96 max-[720px]:h-52">
+                    <div>
+                        <p class="text-2xl font-bold mb-3
+                                    max-[720px]:text-[16px]">노래</p>
+                        <p>노래에 관심이 많아요.<br/>
+                            듣는 것, 부르는 것 전부 포함해서요!<br/>
+                            좋은 노래는 기분이 좋아지게 해줘요.</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="./img/autumn.jpeg" class="rounded-2xl object-cover h-80 w-72 mb-3
+                                                max-[720px]:w-96 max-[720px]:h-52">
+                    <div>
+                        <p class="text-2xl font-bold mb-3
+                                    max-[720px]:text-[16px]">가을</p>
+                        <p>팀원 대다수가 가을이라는 <br/>
+                            계절을 좋아해요.<br/>
+                            따스한 날씨가 매력적이에요</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="./img/painting.jpg" class="rounded-2xl object-cover h-80 w-72 mb-3
+                                                max-[720px]:w-96 max-[720px]:h-52">
+                    <div>
+                        <p class="text-2xl font-bold mb-3
+                                    max-[720px]:text-[16px]">그림</p>
+                        <p>그림을 즐겨 그리는 취미가 있어서<br/>
+                            관련으로 이야기 해보는 것도 <br/> 
+                            재미있을 것 같아요.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="team-personal" class="secondSection bg-[#525659] mt-24">
+            <div class="text-center text-white text-3xl pt-8">
+                <p>팀원 소개</p>
+            </div>
+            <div class="flex gap-2 justify-center px-10 pt-10 pb-20
+                        max-[720px]:p-10 max-[720px]:flex-col">
+                <div class="bg-white p-3 rounded-2xl ">
+                    <a href="profile.html">
+                        <img src="./img/duck.jpg" class="rounded-t-2xl object-cover h-64 w-72 mb-3
+                                                    max-[720px]:w-full max-[720px]:h-40">
+                        <div class="p-4">
+                            <p class="text-2xl font-bold mb-3
+                                        max-[720px]:text-[20px]">구혜원</p>
+                            <p>12기 프론트엔드 파트 아기사자 <br/>구혜원의 개인페이지입니다!</p>
+                            <p class="text-right text-[#A9A9A9] mt-4">프론트엔드</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="bg-white p-3 rounded-2xl">
+                    <a href="#">
+                        <img src="./img/cat.jpg" class="rounded-t-2xl object-cover h-64 w-72 mb-3
+                                                    max-[720px]:w-full max-[720px]:h-40">
+                        <div class="p-4">
+                            <p class="text-2xl font-bold mb-3
+                                        max-[720px]:text-[20px]">주희</p>
+                            <p>12기 기획/디자인 파트 아기사자 <br/>주희의 개인페이지입니다!</p>
+                            <p class="text-right text-[#A9A9A9] mt-4">기획/디자인</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="bg-white p-3 rounded-2xl">
+                    <a href="#">
+                        <img src="./img/lion.png" class="rounded-t-2xl object-cover h-64 w-72 mb-3
+                                                    max-[720px]:w-full max-[720px]:h-40">
+                        <div class="p-4">
+                            <p class="text-2xl font-bold mb-3
+                                        max-[720px]:text-[20px]">안흥수</p>
+                            <p>12기 프론트엔드 파트 아기사자 <br/>안흥수의 개인페이지입니다!</p>
+                            <p class="text-right text-[#A9A9A9] mt-4 ">프론트엔드</p>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer bg-zinc-200 p-10">
+            <div>
+                <p class="font-bold text-xl">Contact us!</p>
+                <div class="flex items-center mt-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="h5 w-5 mr-2"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+                    <a href="mailto:khw6746@sungkyul.ac.kr">khw6746@sungkyul.ac.kr</a>
+                </div>
+            </div>
+            <div class="mt-12 text-center">
+                <p>Copyright 2024. 멋쟁이어흥팀 All rights reserved.</p>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
